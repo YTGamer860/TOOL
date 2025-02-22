@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your one-stop destination for free online tools. Compress images, convert PDFs, and more!">
+  <meta name="keywords" content="online tools, image tools, PDF tools, compress images, convert PDFs, free tools">
+  <meta name="author" content="Your Company Name">
+  <title>Online Tools - Free Image and PDF Tools</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header */
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #4CAF50;
+    }
+
+    /* Main Content */
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Featured Tools Section */
+    .featured-tools {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .tool-card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .tool-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .tool-card img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .tool-card:hover img {
+      transform: scale(1.1);
+    }
+
+    .tool-card h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .tool-card p {
+      margin: 10px 0 0;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    /* Call-to-Action Section */
+    .cta-section {
+      background-color: #4CAF50;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      margin-top: 60px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta-section h2 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+
+    .cta-section p {
+      margin: 10px 0 20px;
+      font-size: 1.1rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: white;
+      color: #4CAF50;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #333;
+      color: white;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      margin-top: 60px;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      nav a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+      }
+
+      .featured-tools {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+
+      .tool-card h3 {
+        font-size: 1.25rem;
+      }
+
+      .tool-card p {
+        font-size: 0.9rem;
+      }
+
+      .cta-section h2 {
+        font-size: 2rem;
+      }
+
+      .cta-section p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Online Tools</h1>
+    <p>Your one-stop destination for free online tools. Compress images, convert PDFs, and more!</p>
+  </header>
+
+  <nav>
+    <a href="#tools">Tools</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <!-- Featured Tools Section -->
+<section id="tools" class="featured-tools">
+  <div class="tool-card">
+    <a href="image-compressor.html" class="tool-link">/Tool/img-compress.html
+      <img src="https://via.placeholder.com/80" alt="Image Compressor">
+      <h3>Image Compressor</h3>
+      <p>Compress and optimize your images without losing quality.</p>
+    </a>
+  </div>
+  <div class="tool-card">
+    <a href="pdf-converter.html" class="tool-link">
+      <img src="https://via.placeholder.com/80" alt="PDF Converter">
+      <h3>PDF Converter</h3>
+      <p>Convert PDFs to Word, Excel, or other formats easily.</p>
+    </a>
+  </div>
+  <div class="tool-card">
+    <a href="image-resizer.html" class="tool-link">
+      <img src="https://via.placeholder.com/80" alt="Image Resizer">
+      <h3>Image Resizer</h3>
+      <p>Resize images to fit your needs quickly and efficiently.</p>
+    </a>
+  </div>
+  <div class="tool-card">
+    <a href="pdf-merger.html" class="tool-link">
+      <img src="https://via.placeholder.com/80" alt="PDF Merger">
+      <h3>PDF Merger</h3>
+      <p>Merge multiple PDF files into one seamless document.</p>
+    </a>
+  </div>
+</section>
+  <div class="tool-card">
+    <a href="pdf-converter.html" class="tool-link">
+      <img src="https://via.placeholder.com/80" alt="PDF Converter">
+      <h3>PDF Converter</h3>
+      <p>Convert PDFs to Word, Excel, or other formats easily.</p>
+    </a>
+  </div>
+  <div class="tool-card">
+    <a href="image-resizer.html" class="tool-link">
+      <img src="https://via.placeholder.com/80" alt="Image Resizer">
+      <h3>Image Resizer</h3>
+      <p>Resize images to fit your needs quickly and efficiently.</p>
+    </a>
+  </div>
+  <div class="tool-card">
+    <a href="pdf-merger.html" class="tool-link">
+      <img src="https://via.placeholder.com/80" alt="PDF Merger">
+      <h3>PDF Merger</h3>
+      <p>Merge multiple PDF files into one seamless document.</p>
+    </a>
+  </div>
+</section>
+      <div class="tool-card">
+        <img src="https://via.placeholder.com/80" alt="PDF Converter">
+        <h3>PDF Converter</h3>
+        <p>Convert PDFs to Word, Excel, or other formats easily.</p>
+      </div>
+      <div class="tool-card">
+        <img src="https://via.placeholder.com/80" alt="Image Resizer">
+        <h3>Image Resizer</h3>
+        <p>Resize images to fit your needs quickly and efficiently.</p>
+      </div>
+      <div class="tool-card">
+        <img src="https://via.placeholder.com/80" alt="PDF Merger">
+        <h3>PDF Merger</h3>
+        <p>Merge multiple PDF files into one seamless document.</p>
+      </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-section">
+      <h2>Ready to Get Started?</h2>
+      <p>Explore our tools and simplify your workflow today!</p>
+      <a href="#tools" class="cta-button">Browse Tools</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Online Tools. All rights reserved.</p>
+  </footer>
+</body>
+</html>
